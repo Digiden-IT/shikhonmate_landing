@@ -1,0 +1,24 @@
+import { IoBookOutline } from "react-icons/io5";
+
+const Banner = () => {
+  return (
+    <div className="min-h-[550px] flex justify-center items-center">
+      <div className="text-center">
+        <h1 className="font-semibold text-5xl">
+          Transform Education with Smart Management asd
+        </h1>
+        <h6 className="text-xl lg:text-3xl my-5 lg:my-10 ">
+          Boost efficiency, enhance learning, and simplify administration with
+          our smart solution.
+        </h6>
+        <div className="flex justify-center">
+          <button className="btn1 text-xl flex items-center gap-2">
+            <IoBookOutline size={20} /> Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Banner;
