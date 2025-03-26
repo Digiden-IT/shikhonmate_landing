@@ -38,7 +38,7 @@ const Features = () => {
 
   return (
     <div className="feature-box">
-      <h2 className="text-2xl text-center font-semibold sticky top-5">
+      <h2 className="text-2xl text-center font-semibold sticky top-4">
         Our Key Features
       </h2>
       <div>

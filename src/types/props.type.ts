@@ -11,3 +11,12 @@ export type FeatureCardProps = {
   image: StaticImageData | string;
   bgColor: string;
 };
+
+export type PlansCardProps = {
+  id: number;
+  popular: boolean;
+  name: string;
+  details: string;
+  price: number;
+  features: string[];
+};

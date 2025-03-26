@@ -1,4 +1,3 @@
-import { mainMenu } from "@/constants/mainMenu";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/shikhonmate_logo.png";
@@ -8,9 +7,9 @@ const Navbar = () => {
     <nav className="container mx-auto ">
       <div className="flex justify-between items-center py-4">
         <div className="logo">
-          <Image src={logo} alt="Shikhonmate" className="w-44" />
+          <Image src={logo} alt="Shikhonmate" className="w-36" />
         </div>
-        <div className="main-menu hidden md:flex gap-4 md:gap-6 lg:gap-8 xl:gap-9 2xl:gap-10 bg-[#F2F9FF] px-4 py-2 rounded-full">
+        {/* <div className="main-menu hidden md:flex gap-4 md:gap-6 lg:gap-8 xl:gap-9 2xl:gap-10 bg-[#F2F9FF] px-4 py-2 rounded-full">
           {mainMenu.map((item) => (
             <Link
               href={item.path}
@@ -20,9 +19,11 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-        </div>
+        </div> */}
         <div>
-          <Link href={"/"}>Login</Link>
+          <Link href={"#contact"} className="btn2">
+            Contact Us
+          </Link>
         </div>
       </div>
     </nav>

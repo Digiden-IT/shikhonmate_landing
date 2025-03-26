@@ -7,12 +7,4 @@ export const mainMenu = [
     name: "Services",
     path: "/services",
   },
-  {
-    name: "About Us",
-    path: "/about-us",
-  },
-  {
-    name: "Contact",
-    path: "/contact",
-  },
 ];

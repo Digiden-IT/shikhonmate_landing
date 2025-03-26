@@ -11,6 +11,10 @@
   --bg-color: #e5e7eb;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-one {
   background-color: var(--color-type-one);
 }
@@ -62,11 +66,15 @@
 
 /* tailwind css start */
 .btn1 {
-  @apply bg-[#21295C] rounded-md hover:!bg-[#4DA6C8] text-gray-50 hover:!text-gray-50 px-4 py-2;
+  @apply bg-[#21295C] rounded-md hover:!bg-[#4DA6C8] text-gray-50 hover:!text-gray-50 px-4 py-2 duration-200;
 }
 
 .btn2 {
-  @apply bg-[#065A82] rounded-3xl px-4 py-1 hover:!bg-[#4DA6C8] text-gray-50 hover:!text-gray-50 uppercase;
+  @apply bg-[#065A82] rounded-3xl px-4 py-2 hover:!bg-[#4DA6C8] text-gray-50 hover:!text-gray-50 uppercase duration-200;
+}
+
+.container {
+  @apply max-w-6xl px-6 lg:px-0 mx-auto;
 }
 
 /* tailwind css end */
