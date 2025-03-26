@@ -34,7 +34,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="py-8">
+    <div className="pt-12">
       <h2 className="text-2xl text-center font-semibold my-8">Our Services</h2>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-14">
         {servicesArray.map((item) => (

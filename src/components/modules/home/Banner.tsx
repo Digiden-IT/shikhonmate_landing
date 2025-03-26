@@ -1,13 +1,28 @@
 import { IoBookOutline } from "react-icons/io5";
+import dotup from "@/assets/Banner/Group 1171275299.svg";
+import dotdown from "@/assets/Banner/Group 1171275300.svg";
+import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="min-h-[550px] flex justify-center items-center">
+    <div className="min-h-[600px] flex justify-center items-center">
       <div className="text-center">
-        <h1 className="font-semibold text-5xl">
-          Transform Education with Smart Management asd
-        </h1>
-        <h6 className="text-xl lg:text-3xl my-5 lg:my-10 ">
+        <div className="relative">
+          <Image
+            src={dotup}
+            alt="dotup"
+            className="absolute -left-24 -top-28 hidden md:block"
+          />
+          <h1 className="font-semibold text-5xl">
+            Transform Education with Smart Management
+          </h1>
+          <Image
+            src={dotdown}
+            alt="dotdown"
+            className="absolute -right-24 -top-4 hidden md:block"
+          />
+        </div>
+        <h6 className="text-xl lg:text-3xl my-5 lg:my-10 max-w-4xl mx-auto">
           Boost efficiency, enhance learning, and simplify administration with
           our smart solution.
         </h6>
