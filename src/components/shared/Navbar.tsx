@@ -9,17 +9,6 @@ const Navbar = () => {
         <div className="logo">
           <Image src={logo} alt="Shikhonmate" className="w-36" />
         </div>
-        {/* <div className="main-menu hidden md:flex gap-4 md:gap-6 lg:gap-8 xl:gap-9 2xl:gap-10 bg-[#F2F9FF] px-4 py-2 rounded-full">
-          {mainMenu.map((item) => (
-            <Link
-              href={item.path}
-              key={item.name}
-              className=" px-4 py-1 rounded-full"
-            >
-              {item.name}
-            </Link>
-          ))}
-        </div> */}
         <div>
           <Link href={"#contact"} className="btn2">
             Contact Us
